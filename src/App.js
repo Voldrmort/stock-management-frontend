@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import LoginPage from './login1';
-import InventoryPage from './InventoryPage';
 import { isAuthenticated, handleLogout } from './utils/auth';
 
 // ✅ Axios Instance with Authorization Token
