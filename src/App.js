@@ -213,7 +213,7 @@ function App() {
                                                 <tr key={item._id}>
                                                     <td>{item.name || 'N/A'}</td>
                                                     <td>{item.stock ?? 'N/A'}</td>
-                                                    <td>${Number(item.price || 0).toFixed(2)}</td>
+                                                    <td>₹{Number(item.price || 0).toFixed(2)}</td>
                                                     <td>{item.stockRoom || 'N/A'}</td>
                                                     <td>
                                                         <input
